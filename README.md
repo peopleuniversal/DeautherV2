@@ -7,7 +7,7 @@ Notes script deauther down wi-fi or user connect in wi-fi, deauther script block
 
 ### first run 
 - run python checkmac.py
-- choose target mac
+- copy target mac wifi
 - then copy and paste mac wifi
 - paste in nano deauther.py
 - run python deauther.py
