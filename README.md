@@ -11,21 +11,21 @@ ______________________________________________________________________
 
 ### Copyright (c) 2024 Kali-Linux
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+𝙿𝚎𝚛𝚖𝚒𝚜𝚜𝚒𝚘𝚗 𝚒𝚜 𝚑𝚎𝚛𝚎𝚋𝚢 𝚐𝚛𝚊𝚗𝚝𝚎𝚍, 𝚏𝚛𝚎𝚎 𝚘𝚏 𝚌𝚑𝚊𝚛𝚐𝚎, 𝚝𝚘 𝚊𝚗𝚢 𝚙𝚎𝚛𝚜𝚘𝚗 𝚘𝚋𝚝𝚊𝚒𝚗𝚒𝚗𝚐 𝚊 𝚌𝚘𝚙𝚢
+𝚘𝚏 𝚝𝚑𝚒𝚜 𝚜𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚊𝚗𝚍 𝚊𝚜𝚜𝚘𝚌𝚒𝚊𝚝𝚎𝚍 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚏𝚒𝚕𝚎𝚜 (𝚝𝚑𝚎 "𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎"), 𝚝𝚘 𝚍𝚎𝚊𝚕
+𝚒𝚗 𝚝𝚑𝚎 𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝𝚒𝚘𝚗, 𝚒𝚗𝚌𝚕𝚞𝚍𝚒𝚗𝚐 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚕𝚒𝚖𝚒𝚝𝚊𝚝𝚒𝚘𝚗 𝚝𝚑𝚎 𝚛𝚒𝚐𝚑𝚝𝚜
+𝚝𝚘 𝚞𝚜𝚎, 𝚌𝚘𝚙𝚢, 𝚖𝚘𝚍𝚒𝚏𝚢, 𝚖𝚎𝚛𝚐𝚎, 𝚙𝚞𝚋𝚕𝚒𝚜𝚑, 𝚍𝚒𝚜𝚝𝚛𝚒𝚋𝚞𝚝𝚎, 𝚜𝚞𝚋𝚕𝚒𝚌𝚎𝚗𝚜𝚎, 𝚊𝚗𝚍/𝚘𝚛 𝚜𝚎𝚕𝚕
+𝚌𝚘𝚙𝚒𝚎𝚜 𝚘𝚏 𝚝𝚑𝚎 𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎, 𝚊𝚗𝚍 𝚝𝚘 𝚙𝚎𝚛𝚖𝚒𝚝 𝚙𝚎𝚛𝚜𝚘𝚗𝚜 𝚝𝚘 𝚠𝚑𝚘𝚖 𝚝𝚑𝚎 𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚒𝚜
+𝚏𝚞𝚛𝚗𝚒𝚜𝚑𝚎𝚍 𝚝𝚘 𝚍𝚘 𝚜𝚘, 𝚜𝚞𝚋𝚓𝚎𝚌𝚝 𝚝𝚘 𝚝𝚑𝚎 𝚏𝚘𝚕𝚕𝚘𝚠𝚒𝚗𝚐 𝚌𝚘𝚗𝚍𝚒𝚝𝚒𝚘𝚗𝚜:
 
 #### The above copyright notice and this permission notice shall be included in all
 
 ### copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+𝚃𝙷𝙴 𝚂𝙾𝙵𝚃𝚆𝙰𝚁𝙴 𝙸𝚂 𝙿𝚁𝙾𝚅𝙸𝙳𝙴𝙳 "𝙰𝚂 𝙸𝚂", 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝚆𝙰𝚁𝚁𝙰𝙽𝚃𝚈 𝙾𝙵 𝙰𝙽𝚈 𝙺𝙸𝙽𝙳, 𝙴𝚇𝙿𝚁𝙴𝚂𝚂 𝙾𝚁
+𝙸𝙼𝙿𝙻𝙸𝙴𝙳, 𝙸𝙽𝙲𝙻𝚄𝙳𝙸𝙽𝙶 𝙱𝚄𝚃 𝙽𝙾𝚃 𝙻𝙸𝙼𝙸𝚃𝙴𝙳 𝚃𝙾 𝚃𝙷𝙴 𝚆𝙰𝚁𝚁𝙰𝙽𝚃𝙸𝙴𝚂 𝙾𝙵 𝙼𝙴𝚁𝙲𝙷𝙰𝙽𝚃𝙰𝙱𝙸𝙻𝙸𝚃𝚈,
+𝙵𝙸𝚃𝙽𝙴𝚂𝚂 𝙵𝙾𝚁 𝙰 𝙿𝙰𝚁𝚃𝙸𝙲𝚄𝙻𝙰𝚁 𝙿𝚄𝚁𝙿𝙾𝚂𝙴 𝙰𝙽𝙳 𝙽𝙾𝙽𝙸𝙽𝙵𝚁𝙸𝙽𝙶𝙴𝙼𝙴𝙽𝚃. 𝙸𝙽 𝙽𝙾 𝙴𝚅𝙴𝙽𝚃 𝚂𝙷𝙰𝙻𝙻 𝚃𝙷𝙴
+𝙰𝚄𝚃𝙷𝙾𝚁𝚂 𝙾𝚁 𝙲𝙾𝙿𝚈𝚁𝙸𝙶𝙷𝚃 𝙷𝙾𝙻𝙳𝙴𝚁𝚂 𝙱𝙴 𝙻𝙸𝙰𝙱𝙻𝙴 𝙵𝙾𝚁 𝙰𝙽𝚈 𝙲𝙻𝙰𝙸𝙼, 𝙳𝙰𝙼𝙰𝙶𝙴𝚂 𝙾𝚁 𝙾𝚃𝙷𝙴𝚁
+𝙻𝙸𝙰𝙱𝙸𝙻𝙸𝚃𝚈, 𝚆𝙷𝙴𝚃𝙷𝙴𝚁 𝙸𝙽 𝙰𝙽 𝙰𝙲𝚃𝙸𝙾𝙽 𝙾𝙵 𝙲𝙾𝙽𝚃𝚁𝙰𝙲𝚃, 𝚃𝙾𝚁𝚃 𝙾𝚁 𝙾𝚃𝙷𝙴𝚁𝚆𝙸𝚂𝙴, 𝙰𝚁𝙸𝚂𝙸𝙽𝙶 𝙵𝚁𝙾𝙼,
+𝙾𝚄𝚃 𝙾𝙵 𝙾𝚁 𝙸𝙽 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽 𝚆𝙸𝚃𝙷 𝚃𝙷𝙴 𝚂𝙾𝙵𝚃𝚆𝙰𝚁𝙴 𝙾𝚁 𝚃𝙷𝙴 𝚄𝚂𝙴 𝙾𝚁 𝙾𝚃𝙷𝙴𝚁 𝙳𝙴𝙰𝙻𝙸𝙽𝙶𝚂 𝙸𝙽 𝚃𝙷𝙴
+𝚂𝙾𝙵𝚃𝚆𝙰𝚁𝙴.
