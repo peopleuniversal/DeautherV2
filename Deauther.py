@@ -21,6 +21,7 @@ def menu():
     print("{yellow}* [ Exit   : 0             ] *")
     print("{purple}******************************")
     time.sleep(2)
+# Input Menu
     tools = input("""{white}Command Test And Enter
 Or Edit Code Manual >{green} nano deauther.py  : """)
 # Output Menu
