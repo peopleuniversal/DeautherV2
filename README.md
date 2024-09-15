@@ -1,4 +1,13 @@
-## Do not redistribute, advertise or sell this software as a "deauther"!!!
+# Kali-linux only
+### first run 
+- python checkmac.py
+- then copy and paste mac wifi
+- in nano deauther.py
+
+______________________________________________________________________
+
+
+## Do not redistribute, advertise or sell this software as a "deauther with kali-linux"!!!
 
 ### Copyright (c) 2024 Kali-Linux
 
