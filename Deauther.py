@@ -2,6 +2,7 @@
 
 import os, sys, time
 
+# Color Text
 green   =   "\033[1;92m"
 white   =   "\033[1;97m"
 ash     =   "\033[1;90m"
@@ -10,6 +11,7 @@ purple  =   "\033[1;95m"
 red     =   "\033[1;91m"
 blue    =   "\033[1;96m"
 
+# Main Menu
 def menu():
     time.sleep(3)
     os.system("clear")
