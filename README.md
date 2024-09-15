@@ -1,8 +1,9 @@
 # Kali-linux only
 ### first run 
-- python checkmac.py
+- run python checkmac.py
 - then copy and paste mac wifi
-- in nano deauther.py
+- paste in nano deauther.py
+- run python deauther.py
 
 ______________________________________________________________________
 
