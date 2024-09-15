@@ -1,6 +1,9 @@
 # Kali-linux only
 
 Author @universalpeople
+Notes script deauther down wi-fi or user connect in wi-fi, deauther script block user or wi-fi infinity spam deauther:).
+
+### don't forget script deauther not to be misused
 
 ### first run 
 - run python checkmac.py
