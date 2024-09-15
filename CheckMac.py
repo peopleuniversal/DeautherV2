@@ -43,5 +43,4 @@ def menu():
        time.sleep(3)
        os.system("python CheckMac.py")
        
-
 menu()
