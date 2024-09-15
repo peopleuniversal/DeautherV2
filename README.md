@@ -1,4 +1,7 @@
 # Kali-linux only
+
+Author @universalpeople
+
 ### first run 
 - run python checkmac.py
 - then copy and paste mac wifi
