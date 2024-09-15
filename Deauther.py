@@ -23,7 +23,7 @@ def menu():
     time.sleep(2)
     tools = input("""{white}Command Test And Enter
 Or Edit Code Manual >{green} nano deauther.py  : """)
-
+# Output Menu
     if tools=="Test":
        os.system("clear")
        time.sleep(3)
