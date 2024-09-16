@@ -31,15 +31,15 @@ def textwalk(s):
 def menu():
     os.system("clear")
     time.sleep(3)
-    textwalk(f"{red}Hello welcome CheckMac\n{green}don't forget follow my @github > {red}@peopleuniversal \n{green}Thank You...!!!")
+    textwalk(f"{red}Hello welcome CheckMac\n{green}don't forget follow my @github\n{red}@peopleuniversal \n{green}Thank You...!!!")
     os.system("clear")
     print(f"{red}***************************")
-    print(f"{white}* [ Author : Deauther   ] *")
+    print(f"{red}* [ Author : Deauther   ] *")
     print(f"{red}* [ Wi-fi Address Check ] *")
-    print(f"{white}* [1] Mac Check           *")
-    print(f"{red}* [0] Exit                *")
+    print(f"{red}* [1] Mac Check           *")
+    print(f"{white}* [0] Exit                *")
     print(f"{white}***************************")
-    tools = input(f"""{red}Input Number > """)
+    tools = input(f"""{white}Input Number > """)
 
     # Output
     if tools == "1":
