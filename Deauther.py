@@ -56,8 +56,7 @@ def menu():
     time.sleep(2)
 
 # Input Menu
-    tools = input(f"""{white}Input
-{red}Number Tools: """)
+    tools = input(f"""{white}Input Number: """)
 
 # Output Menu
     if tools=="1":
