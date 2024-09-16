@@ -1,17 +1,27 @@
-# Kali-linux only
+# DeautherV2
 
 Author @universalpeople
-Notes script deauther down wi-fi or user connect in wi-fi, deauther script block user or wi-fi infinity spam deauther:).
+Notes script deauther down wi-fi or user connect in wi-fi, deauther script block user or wi-fi infinity spam deauther:)
+V2 version update code manually and of course it already works with all regular adapters which don't support a wide range.
 
-- #### don't forget script deauther not to be misused
+## It has been tested on several virtual operating systems
+- Kali-Linux (VirtualBox)
+- Kali-Linux (VMware)
 
-### first run 
+## Tested Adapters & Support
+- MT7601 USB
+- USB Adapters USB
+- TP-Link TL-WN725N Version USB
+- TP-Link TL-WN722N USB
+- TP-LINK Network Adapter UE200 USB 2.0
+
+## First run 
 - run python checkmac.py
 - copy target mac wifi
 - then copy and paste mac wifi
 - paste in nano deauther.py
 - run python deauther.py
-
+#### Don't forget script deauther not to be misused
 ______________________________________________________________________
 
 
