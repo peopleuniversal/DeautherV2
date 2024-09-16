@@ -36,7 +36,7 @@ def menu():
     print(f"{red}***************************")
     print(f"{red}* [ Author : Deauther   ] *")
     print(f"{red}* [ Wi-fi Address Check ] *")
-    print(f"{red}* [1] Mac Check           *")
+    print(f"{white}* [1] Mac Check           *")
     print(f"{white}* [0] Exit                *")
     print(f"{white}***************************")
     tools = input(f"""{white}Input Number > """)
