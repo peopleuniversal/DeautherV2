@@ -30,7 +30,7 @@ def textwalk(s):
 def menu():
     time.sleep(3)
     os.system("clear")
-    textwalk(f"{red}Hello welcome CheckMac\n{green}don't forget follow my @github > {red}@peopleuniversal \n{green}Thank You...!!!")
+    textwalk(f"{red}Hello welcome DeautherV2\n{green}don't forget o not exaggerate{red}\nThank You...!!!")
     time.sleep(3)
     os.system("clear")
     time.sleep(3)
@@ -40,7 +40,7 @@ def menu():
 {red}@@!  @@@  @@!       @@!  @@@  @@!  @@@    @@!    @@!  @@@  @@!       @@!  @@@
 {red}!@!  @!@  !@!       !@!  @!@  !@!  @!@    !@!    !@!  @!@  !@!       !@!  @!@
 {red}@!@  !@!  @!!!:!    @!@!@!@!  @!@  !@!    @!!    @!@!@!@!  @!!!:!    @!@!!@!
-{white}!@!  !!!  !!!!!:    !!!@!!!!  !@!  !!!    !!!    !!!@!!!!  !!!!!:    !!@!@!
+{red}!@!  !!!  !!!!!:    !!!@!!!!  !@!  !!!    !!!    !!!@!!!!  !!!!!:    !!@!@!
 {white}!!:  !!!  !!:       !!:  !!!  !!:  !!!    !!:    !!:  !!!  !!:       !!: :!!
 {white}:!:  !:!  :!:       :!:  !:!  :!:  !:!    :!:    :!:  !:!  :!:       :!:  !:!
 {white}:::: ::   :: ::::  ::   :::  ::::: ::     ::    ::   :::   :: ::::  ::   :::
@@ -49,10 +49,10 @@ def menu():
     print(f"{red}******************************")
     print(f"{red}* [ Manual Code Deauther   ] *")
     print(f"{red}* [ Author : Deauther Test ] *")
-    print(f"{white}* [ Deauther : 1           ] *")
+    print(f"{red}* [ Deauther : 1           ] *")
     print(f"{white}* [ Edit Deauther : 2      ] *")
     print(f"{white}* [ Exit   : 0             ] *")
-    print(f"{red}******************************")
+    print(f"{white}******************************")
     time.sleep(2)
 
 # Input Menu
