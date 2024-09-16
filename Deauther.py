@@ -30,7 +30,7 @@ def textwalk(s):
 def menu():
     time.sleep(3)
     os.system("clear")
-    textwalk(f"{red}Hello welcome DeautherV2\n{green}don't forget o not exaggerate{red}\nThank You...!!!")
+    textwalk(f"{red}Hello welcome DeautherV2\n{green}don't forget do not exaggerate{red}\nThank You...!!!")
     time.sleep(3)
     os.system("clear")
     time.sleep(3)
