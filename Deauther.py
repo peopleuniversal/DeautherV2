@@ -35,6 +35,8 @@ def menu():
     os.system("clear")
     time.sleep(3)
     print(f"""
+{blue}Please Choose Number Two First To Paste The {red}MAC Targeter
+{ash}Then Determine The Wifi Adapter Interface, For {red}Example: wlan0/wlan1
 {red}@@@@@@@   @@@@@@@@   @@@@@@   @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@
 {red}@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@@
 {red}@@!  @@@  @@!       @@!  @@@  @@!  @@@    @@!    @@!  @@@  @@!       @@!  @@@
@@ -45,7 +47,7 @@ def menu():
 {white}:!:  !:!  :!:       :!:  !:!  :!:  !:!    :!:    :!:  !:!  :!:       :!:  !:!
 {white}:::: ::   :: ::::  ::   :::  ::::: ::     ::    ::   :::   :: ::::  ::   :::
 {white}:: :  :   : :: ::    :   : :   : :  :      :      :   : :  : :: ::    :   : :""")
-
+    print("")
     print(f"{red}******************************")
     print(f"{red}* [ Manual Code Deauther   ] *")
     print(f"{red}* [ Author : Deauther Test ] *")
@@ -62,12 +64,9 @@ def menu():
     if tools=="1":
        os.system("clear")
        time.sleep(3)
-       print("""
-pls check manual or iwconfig in terminal...!!!
-Example: wlan0/wlan1, edit code manual nano deauther.py""")
-       time.sleep(3)
        os.system("clear")
        print("Check Interface Wlan")
+       time.sleep(4)
        os.system("iwconfig")
        os.system("airmon-ng stop wlan0")
        os.system("airmong-ng start wlan0")
