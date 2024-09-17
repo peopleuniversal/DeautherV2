@@ -36,10 +36,10 @@ def menu():
     print(f"{red}***************************")
     print(f"{red}* [ Author : Deauther   ] *")
     print(f"{red}* [ Wi-fi Address Check ] *")
-    print(f"{white}* [1] Mac Check           *")
-    print(f"{white}* [0] Exit                *")
-    print(f"{white}***************************")
-    tools = input(f"""{white}Input Number > """)
+    print(f"{ash}* [1] Mac Check           *")
+    print(f"{ash}* [0] Exit                *")
+    print(f"{ash}***************************")
+    tools = input(f"""{ash}Input Number > """)
 
     # Output
     if tools == "1":
@@ -52,9 +52,10 @@ def menu():
         os.system("airmon-ng start wlan0")
         time.sleep(3)
         os.system("clear")
-        os.system("airodump-ng wlan0")
-        print("Copy Mac Wi-fi And Paste In nano Deauthertest.py")
         print("Cancel Command CTRL + C")
+        time.sleep(4)
+        os.system("airodump-ng wlan0")
+        print(f"{red}Copy Mac Wi-fi And Paste In nano Deauthertest.py")
 
     # Output Exit
     elif tools == "0":
