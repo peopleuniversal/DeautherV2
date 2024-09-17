@@ -39,7 +39,7 @@ def menu():
     print(f"{ash}* [1] Mac Check           *")
     print(f"{ash}* [0] Exit                *")
     print(f"{ash}***************************")
-    tools = input(f"""{ash}Input Number > """)
+    tools = input(f"""{ash}Input Number ==>> """)
 
     # Output
     if tools == "1":
